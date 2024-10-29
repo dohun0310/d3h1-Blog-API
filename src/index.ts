@@ -3,6 +3,8 @@ import express, { Request, Response } from "express";
 const app = express();
 const port = 6310;
 
+app.use(express.json());
+
 app.get("/", (req: Request, res: Response) => {
   res.send("If you see this message, server is very healthy.");
 });
