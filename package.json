@@ -11,10 +11,14 @@
   "author": "dohun0310",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.8.1",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
