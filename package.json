@@ -11,10 +11,17 @@
   "author": "dohun0310",
   "license": "MIT",
   "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "axios": "^1.8.1",
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2"
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.4.1",
+    "rate-limiter-flexible": "^5.0.5"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
